@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <h1 id="encabezado" class=""> Encabezado </h1>
+    <ol id="lista">
+        <li id="primero">Primer elemento</li>
+        <li>Segundo elemento</li>
+    </ol>
+    <button id="bot">Boton</button>
+    <input type="text" id="input">
+    <script>
+        let primero= document.getElementById("primero");
+        primero.innerHTML="Nuevo texto <i> sofia </i>";
+        let encabezado=document.getElementById("encabezado");
+        encabezado.style.color="#FFF";
+        encabezado.style.background="navy";
+        (function(){
+            let saludo=function(e){
+                alert('Hola!!'); 
+                console.log('este evento es de tipo:'+e.type);  
+                console.log('este evento se encuentra:'+e.target);
+        };
+        let boton= document.getElementById("bot");
+        boton.addEventListener("click",saludo);
+        //setInterval(saludo,3000);
+        }())
+    </script>
+</body>
+</html>

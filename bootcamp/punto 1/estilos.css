@@ -1,0 +1,27 @@
+body{
+	background: #CCC;
+}
+
+h2{
+	color:rgb(255,31,112);
+	font-size: 40px;
+	font-weight: 55px;
+	line-height: 40px;
+	text-decoration: underline;
+	text-shadow: 1px 1px black;
+}
+
+.div{
+	height: 250px;
+	width: 250px;
+	background: white;
+	top: 30px;
+	left: 50px;
+}
+
+#boton{
+padding: 20px;
+margin: 20px;
+width: 120px;
+
+}

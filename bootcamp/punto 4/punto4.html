@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="codigo.js"></script>
+    
+</head>
+<body>
+      <script src="./js/javascript.js"></script> 
+
+<h1>Formulario</h1>
+
+   <form name="formulario" action="validacion.php" method="post" enctype="application/x-www-form-urlencoded" id="formulario" onsubmit="return validar();">
+  
+    <fieldset>
+        <legend>Ingreses sus datos</legend><br>
+
+    <div>  
+        <label for="titulo"> Ingrese el titulo</label>
+        <input type="text" name="titulo" id="titulo" placeholder="escribe titulo" maxlength="50">
+        <br><br><br><br>
+  </div>
+    <div>
+        <label for="descripcion"> Ingrese una descripcion</label>
+        <input type="text" name="descripcion" id="descripcion" placeholder="escribe una descripcion" maxlength="200">
+        <br><br><br><br>
+  </div>
+    <div>
+        <label for="archivos"> Ingrese un archivo</label>
+        <input type="file" name="archivos" id="archivos" placeholder="Ingrese un archivo">
+        <br><br><br><br>
+  </div>
+</fieldset><br>
+
+    <div>
+        <input type="checkbox" name="terminos" id="terminos"> Aceptar terminos y condicones
+        <br><br><br><br>
+  </div>
+    <div>
+        <input type="button" name="bot" id="boton" value="Crear" onclick="validar()">
+        <input type="reset" name="limpiar" id="limpiar" value="Limpiar">
+        <br><br><br><br><br><br><br><br><br>
+    </div>
+
+   </form>
+  
+   </body>
+</html>

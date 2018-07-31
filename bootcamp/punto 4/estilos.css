@@ -1,0 +1,65 @@
+body{
+	background: gray;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+legend{
+	font-size: 20px;
+	color: #fff;
+}
+
+label{
+	color: #000;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+input[type="text"]{
+
+	background: #a6ceff;
+	color: #ef6028;
+	font-size: 18px;
+	width: 250px;
+	height: 30px;
+
+}
+
+input[type="text"]:focus{
+	background: #d9f4f3;
+	color: #000;
+	font-size: 18px;
+}
+
+input[type="file"]{
+
+	background: #a6ceff;
+	color: #ef6028;
+	font-size: 18px;
+	width: 450px;
+	height: 30px;
+}
+
+input[type="checkbox"]{
+
+	font-size: 30px;
+	width: 60px;
+}
+input[type="button"], input[type= "reset"]{
+	background: #0171bb;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover
+{
+	background: #52b9fe;
+	color: #000;
+	cursor: pointer;
+	padding: 5px 15px;
+}
